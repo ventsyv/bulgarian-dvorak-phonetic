@@ -2,7 +2,7 @@
 If you use Dvorak for your English layout, it makes sense to also
 use Dvorak for Bulgarian. I couldn't find one for Linux so I created my own.
 
-Markup : ![picture alt](https://github.com/ventsyv/bulgarian-dvorak-phonetic/blob/main/install.sh "Layout")
+Markup : ![picture alt](https://github.com/ventsyv/bulgarian-dvorak-phonetic/blob/main/layout.png "Layout")
 
 ## Installation ##
 

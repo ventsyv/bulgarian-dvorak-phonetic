@@ -1,8 +1,8 @@
-#About#
+# About #
 If you use Dvorak for your English layout, it makes sense to also
 use Dvorak for Bulgarian. I couldn't find one for linux so I created my own.
 
-#Installation#
+# Installation #
 
 Installation is simple:
 
@@ -26,7 +26,7 @@ You'll probably need to restart after the install script is ran.
 
 - Go to Settings -> Keyboards and install the new layout
 
-#Development#
+# Development #
 
 If you want to create your own version (perhaps for a different language)
 follow these steps:
@@ -38,6 +38,6 @@ follow these steps:
 	- Change the country code
 	- Change any mentions of "Bulgarian"
 
-##Contribute##
+## Contribute ##
 
 Just fork the project, make the changes, then submit a pull request!

@@ -1,8 +1,10 @@
 # About #
 If you use Dvorak for your English layout, it makes sense to also
-use Dvorak for Bulgarian. I couldn't find one for linux so I created my own.
+use Dvorak for Bulgarian. I couldn't find one for Linux so I created my own.
 
-# Installation #
+Markup : ![picture alt](https://github.com/ventsyv/bulgarian-dvorak-phonetic/blob/main/install.sh "Layout")
+
+## Installation ##
 
 Installation is simple:
 
@@ -26,7 +28,7 @@ You'll probably need to restart after the install script is ran.
 
 - Go to Settings -> Keyboards and install the new layout
 
-# Development #
+## Development ##
 
 If you want to create your own version (perhaps for a different language)
 follow these steps:

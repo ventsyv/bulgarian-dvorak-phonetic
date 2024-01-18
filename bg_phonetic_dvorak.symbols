@@ -12,12 +12,12 @@ xkb_symbols "bg_phonetic_dvorak" {
     key <AE03> {[ 3,                 numerosign                                                ]};
     key <AE04> {[ 4,                 dollar,            EuroSign,          EuroSign            ]};
     key <AE05> {[ 5,                 percent                                                   ]};
-    key <AE06> {[ 6,                 EuroSign                                                  ]};
+    key <AE06> {[ 6,                 asciicircum,   dead_circumflex,  dead_circumflex          ]};
     key <AE07> {[ 7,                 section                                                   ]};
     key <AE08> {[ 8,                 asterisk                                                  ]};
     key <AE09> {[ 9,                 parenleft,         bracketleft,       U2329               ]};
     key <AE10> {[ 0,                 parenright,        bracketright,      U232A               ]};
-    key <AE11> {[ minus,             endash,            U2011,             U2011               ]};
+    key <AE11> {[ slash,             question,          U2011,             U2011               ]};
     key <AE12> {[ equal,             plus,              emdash,            dagger              ]};
 
 

@@ -27,16 +27,20 @@ def appendXML (sourcePath, targetPath, countryCode):
 	# Then we select the variantList where we want to append the new layout
 	layoutXpath= './/name[.="{0}"]/../../variantList'.format(countryCode)
 	
-	#Find the Bulgarian layout. There should only be one
-	bgLayoutNode = root.findall(layoutXpath)[0]
+	#Find the Bulgarian variant list
+	variantListNode = root.findall(layoutXpath)[0]
 
-	#Append the new layout and overwrite
+	#Load the new variant we want to add
 	newLayout = ET.parse(sourcePath).getroot()
-	bgLayoutNode.append(newLayout)
-	ET.indent(target)
-	target.write(targetPath)
-
-
+	newVariantName = newLayout.find('./configItem/name').text
+	
+	#Check if the variant exists
+	existingVariant = variantListNode.find('./variant/configItem/name[.="{0}"]'.format(newVariantName))
+	#Append the new variant only if it doesn't exist already
+	if existingVariant == None:
+		variantListNode.append(newLayout)
+		ET.indent(target)
+		target.write(targetPath)
 
 def main ():
 	sourcePath = sys.argv[1]

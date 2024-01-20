@@ -16,7 +16,7 @@ then
 	#To avoid duplicates, reset to the original before adding the new layout
 	mv /usr/share/X11/xkb/symbols/${COUNTRY_CODE}_orig /usr/share/X11/xkb/symbols/${COUNTRY_CODE}
 else
-	#Save the original
+	#First time we are installing the new variant. Save the original
 	cp /usr/share/X11/xkb/symbols/${COUNTRY_CODE} /usr/share/X11/xkb/symbols/${COUNTRY_CODE}_orig
 fi
 
